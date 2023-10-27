@@ -3,8 +3,17 @@
 		"prefix": "html-structure",
 		"body": [
 			"<!DOCTYPE html>",
+
 			"<html>",
 			"<head>",
+			// Sukure Tomas Bitvinskas EDIf-22
+			"<meta charset="UTF-8">",
+			"<meta name="description" content="Labaratorinio darbo praktika">",
+			"<meta name="keywords" content="HTML, labaratorinis, studentas">",
+			"<meta name="author" content="Tomas Bitvinskas">",
+			"<meta name="copyright" content="© 2023 Tomas Bitvinskas. All rights reserved.">",
+			"<meta name="viewport" content="width=device-width, initial-scale=1.0">",
+
 			"<title>$1</title>",
 			"</head>",
 			"<body>",
@@ -12,6 +21,8 @@
 			"<h1>$2</h1>",
 			"<p>$3",
 			"</p>",
+
+			"<link href="____" Linkas>",
 			
 			"</body>",
 			"</html>",
